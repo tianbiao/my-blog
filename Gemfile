@@ -51,3 +51,5 @@ group :development do
   gem 'spring'
 end
 
+gem 'simple-navigation', '~> 4.0.2'
+
