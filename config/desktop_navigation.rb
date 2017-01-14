@@ -1,8 +1,7 @@
 SimpleNavigation::Configuration.run do |navigation|
   navigation.items do |primary|
-    primary.item :key_1, 'Home', '/'
-    primary.item :key_2, 'Item1', '/'
-    primary.item :key_3, 'Item2', '/'
-    primary.item :key_4, 'Item3', '/'
+    primary.item :desktop_navigation_home, 'Home', '/'
+    primary.item :desktop_navigation_my_posts, 'My posts', '/'
+    primary.item :desktop_navigation_about_me, 'About me', '/'
   end
 end
