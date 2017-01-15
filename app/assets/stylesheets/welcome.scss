@@ -1,3 +1,48 @@
-// Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.welcome-page {
+  background: url("home.jpg") no-repeat center center fixed;
+  height: 100%;
+  width: auto;
+
+  h1 {
+    color: red;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .navigation {
+    background: greenyellow;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 10px;
+    opacity: 0.8;
+
+    .navigation-item {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+    }
+  }
+
+  .welcome-word {
+    padding-top: 300px;
+    text-align: center;
+
+    span {
+      font-size: 58px;
+      color: white;
+    }
+  }
+
+
+}
