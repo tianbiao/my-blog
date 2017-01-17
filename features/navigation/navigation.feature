@@ -8,3 +8,8 @@ Feature: As a visitor,
       | Home      |
       | My posts  |
       | About me  |
+
+  Scenario: visitor can navigate to My posts page via navigation
+    When I go to Home page
+    And I click My posts menu items
+    Then I should be on My posts page
