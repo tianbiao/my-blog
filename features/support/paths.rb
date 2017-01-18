@@ -8,7 +8,7 @@ module NavigationHelpers
   def path_to(page_name)
     case page_name
       when /My posts/
-        '/articles/new'
+        '/articles'
     end
   end
 end
